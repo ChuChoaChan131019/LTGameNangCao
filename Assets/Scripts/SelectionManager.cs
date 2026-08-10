@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class SelectionManager : MonoBehaviour
 {
+    public static SelectionManager instance { get;  set; }
     public bool onTarget;
 
     public GameObject interaction_Info_UI;
@@ -17,6 +18,18 @@ public class SelectionManager : MonoBehaviour
         interaction_text = interaction_Info_UI.GetComponent<Text>();
     }
 
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -24,11 +37,12 @@ public class SelectionManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit,5f))
         {
             var selectionTransform = hit.transform;
+            InteractableObject interactable = selectionTransform.GetComponent<InteractableObject>();
 
-            if (selectionTransform.GetComponent<InteractableObject>()&& selectionTransform.GetComponent<InteractableObject>().playerInRange)
+            if (interactable && interactable.playerInRange)
             {
                 onTarget = true;
-                interaction_text.text = selectionTransform.GetComponent<InteractableObject>().GetItemName();
+                interaction_text.text = interactable.GetItemName();
                 interaction_Info_UI.SetActive(true);
             }
             else
