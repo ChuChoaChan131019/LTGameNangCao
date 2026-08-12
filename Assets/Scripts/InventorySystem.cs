@@ -1,15 +1,26 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.AdaptivePerformance.Editor;
 using UnityEngine;
 
 public class InventorySystem : MonoBehaviour
 {
 
     public static InventorySystem Instance { get; set; }
-
+    
     public GameObject inventoryScreenUI;
+    
+    public List<GameObject> slotList = new List<GameObject>();
+    
+    public List<String> itemList = new List<String>();
+    
+    private GameObject itemToAdd;
+    
+    private GameObject whatSlotToEquip;
+
     public bool isOpen;
+
 
 
     private void Awake()
@@ -28,8 +39,16 @@ public class InventorySystem : MonoBehaviour
     void Start()
     {
         isOpen = false;
-    }
+        PopulateSlotList();
 
+    }
+    private void PopulateSlotList()
+    {
+        foreach (Transform child in inventoryScreenUI.transform)
+        {
+            slotList.Add(child.gameObject);
+        }
+    }
 
     void Update()
     {
@@ -50,5 +69,54 @@ public class InventorySystem : MonoBehaviour
             isOpen = false;
         }
     }
+    public void AddToInventory(string itemName)
+    {
+        if (CheckIfFull())
+        {
+            Debug.Log("Inventory is full");
+            return;
+        }
+        else
+        {
+            whatSlotToEquip = FindNextEmptySlot();
+            itemToAdd= Instantiate(Resources.Load<GameObject>(itemName),whatSlotToEquip.transform.position,whatSlotToEquip.transform.rotation);
+            itemToAdd.transform.SetParent(whatSlotToEquip.transform);
+            itemList.Add(itemName);
+        }
+    }
 
+    private GameObject FindNextEmptySlot()
+     {
+        foreach (GameObject slot in slotList)
+        {
+            if (slot.transform.childCount == 0)
+            {
+                return slot;
+            }
+        }
+        return new GameObject();
+    }
+
+
+    public bool CheckIfFull()
+    {
+        int count = 0;
+        foreach(GameObject slot in slotList)
+        {
+            if (slot.transform.childCount > 0)
+            {
+                count+=1;
+            }
+            
+        }
+        if (count ==18)
+        {
+            return true;
+        }
+        else
+        { 
+            return false;
+        }
+
+    }
 }

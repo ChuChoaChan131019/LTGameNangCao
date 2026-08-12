@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|d:\\trang\\game n\u00E2ng cao\\2314288_lab01\\assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +19,8 @@
       "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|d:\\trang\\game n\u00E2ng cao\\2314288_lab01\\assets\\scripts\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|d:\\trang\\game n\u00E2ng cao\\2314288_lab01\\assets\\scripts\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\selectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA2BED9-2190-833A-ACB0-D056CB13C6D5}|Assembly-CSharp.csproj|D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\assets\\scripts\\ai_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,50 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InventorySystem.cs",
-              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\InventorySystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InventorySystem.cs",
-              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\InventorySystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InventorySystem.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T07:02:49.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DragDrop.cs",
-              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\DragDrop.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DragDrop.cs",
-              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\DragDrop.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DragDrop.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwv0UAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T07:02:20.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemSlot.cs",
-              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\ItemSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",
-              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\ItemSlot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemSlot.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T07:01:47.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MouseMovement.cs",
               "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\MouseMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseMovement.cs",
@@ -102,31 +59,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SelectionManager.cs",
-              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\SelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectionManager.cs",
-              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\SelectionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SelectionManager.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwD0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InventorySystem.cs",
+              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\InventorySystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventorySystem.cs",
+              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\InventorySystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventorySystem.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwG8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:25:17.504Z"
+              "WhenOpened": "2026-08-10T07:02:49.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "InteractableObject.cs",
               "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
               "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\InteractableObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\InteractableObject.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:26:19.542Z"
+              "WhenOpened": "2026-08-06T18:26:19.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "ItemSlot.cs",
+              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",
+              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSlot.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T07:01:47.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DragDrop.cs",
+              "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\DragDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DragDrop.cs",
+              "ToolTip": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\DragDrop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DragDrop.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv0UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T07:02:20.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TerrainLit.shader",
               "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Library\\PackageCache\\com.unity.render-pipelines.universal@a6e30d1f59f5\\Shaders\\Terrain\\TerrainLit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@a6e30d1f59f5\\Shaders\\Terrain\\TerrainLit.shader",
@@ -134,12 +117,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@a6e30d1f59f5\\Shaders\\Terrain\\TerrainLit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-08-05T08:00:18.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-05T08:00:18.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -151,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AI_Movement.cs",
               "DocumentMoniker": "D:\\Trang\\Game n\u00E2ng cao\\2314288_Lab01\\Assets\\Scripts\\AI_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI_Movement.cs",
