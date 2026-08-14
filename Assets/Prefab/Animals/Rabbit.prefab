@@ -170,4 +170,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b28465b198eff1d4fa5f14a4f240f4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  ItemName: Rabbit
+  playerInRange: 0
+  ItemName: Big Rabbit
