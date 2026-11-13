@@ -72,20 +72,22 @@ public class CraftingSystem : MonoBehaviour
         }
         StartCoroutine(caclculate());
 
-        RefreshNeededItem();
 
     }
 
     public IEnumerator caclculate()
     {
-        yield return new WaitForSeconds(0.05f);
+        yield return 0;
         InventorySystem.Instance.ReCalculateList();
+        RefreshNeededItem();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        RefreshNeededItem();
+
+
         if (Input.GetKeyDown(KeyCode.C) && !isOpen)
         {
 
@@ -104,7 +106,7 @@ public class CraftingSystem : MonoBehaviour
             isOpen = false;
         }
     }
-    private void RefreshNeededItem()
+    public void RefreshNeededItem()
     {
         int stone_count = 0;
         int stick_count = 0;
